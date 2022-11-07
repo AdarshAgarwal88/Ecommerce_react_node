@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0px 2px 4px -1pxrgba (0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: static;
+  background-color: #040404 !important;
+  color: #fff;
+}
+
+.css-1kcggdq-MuiInputBase-root .MuiInputBase-input {
+  width: 55ch !important;
+}
+
+.Link {
+  color: aliceblue;
+}
+
+.logo {
+  height: 6vh;
+}
+.css-10mzr36-MuiGrid-root {
+  width: calc(100% + 24px) !important;
+  margin-left: -12px !important;
+}
+.css-picb4i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 0px 11px 15px -7pxrgba(0,0,0,0.2),0px 24px 38px 3pxrgba(0,0,0,0.14),0px 9px 46px 8pxrgba(0,0,0,0.12);
+  padding: 32px;
+
+}
+.css-19teot5-MuiPaper-root-MuiCard-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1pxrgba(0,0,0,0.2),0px 1px 1px 0pxrgba(0,0,0,0.14),0px 1px 3px 0pxrgba(0,0,0,0.12);
+  overflow: hidden;
+  background-color: white;
+  color: Black;
+
+}
+
+.background{
+  background-image: url(../src/assets/image/bgSignup.jpg);
+  background-repeat: no-repeat; 
+  height: 100.7vh;   
+  background-size: cover;
+}
+
+.css-picb4i {
+  position: absolute;
+  /* top: 50%; */
+  /* left: 50%; */
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 56vh;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 0px 11px 15px -7pxrgba(0,0,0,0.2),0px 24px 38px 3pxrgba(0,0,0,0.14),0px 9px 46px 8pxrgba(0,0,0,0.12);
+  padding: 32px;
+  height: auto !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: #000;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 100;
+  width: 60%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+  margin-left: 20%
+  
+}
+
+.dropdown-content .header {
+  background: #fff;
+  padding: 0px;
+  color: #120a0a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+ }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 19.95%;
+  padding: 10px;
+  background-color: white;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: gray;
+  padding: 4px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.column h3{
+  text-align: left;
+  color: black;
+ 
+  font-family: fangsong;
+}
+.column a{
+   text-align: left;
+   font-family: regular;
+   font-weight: 500;
+}
+
+.column a:hover {
+  color: red;
+}
+
+.imageIndex{
+ 
+}
+
+
+.css-46bh2p-MuiCardContent-root {
+  /* padding: 16px; */
+  padding-top: 6px !important;
+}
+.css-h93ljk-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: bold !important;
+  font-size: 13px !important;
+  line-height: 1.334;
+  letter-spacing: 0em;
+  margin-bottom: 0.35em;
+  text-align: left;
+  color: #000 !important;
+}
+.css-r40f8v-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400 !important;
+  font-size: 11px !important;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+}
+.price{
+    font-size: 16px !important;
+    font-weight: bold !important;
+    color: #000 !important;
+}
+
+.custom-style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background-color: "background.paper";
+  border: "2px solid #000";
+  box-shadow: 24;
+  padding: 4;
+  height: "47vh";
+  width: "56vh"
+}
+.buttonDesign{
+  width: 17vh;
+}
+.cardImage{
+  
+  width: 15vh !important;
+  height: 20vh;
+  /* align-items: center !important; */
+  /* justify-items: center; */
+  /* justify-content: center; */
+  margin-left: 25px;
+
+}
+.productImage{
+  height: 74vh !important;
+ 
+}
+.heading{
+  text-align: center !important;
+}
+.App {
+    text-align: left !important;
+}
+
+.fileDesign{
+  margin-left: 6%;
+  margin-top: 1%;
+}
